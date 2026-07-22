@@ -1,0 +1,17 @@
+ROUTINE RunScript
+ #; Entry point the moderators run: do ^RunScript
+Run()
+{
+ #; Start time
+ Set startTime = $ZHOROLOG
+
+ #; Read data/in, compute per-band % change, write data/out/results.csv
+ Set kept = ##class(Lumeon.Challenge).Run()
+
+ #; End time
+ Set endTime = $ZHOROLOG
+ #; Elapsed time in seconds
+ Set elapsed = endTime - startTime
+ Write kept, " records written to data/out/results.csv", !
+ Write "Elapsed time: ", elapsed, " seconds", !
+}
