@@ -105,7 +105,10 @@ The 57,099-row CSV is just numbers. **[lumeon.vercel.app](https://lumeon.vercel.
 it into a sky you can fly through — every qualifying source becomes a star you can find,
 watch, and ask about.
 
-![The Lumeon starfield: natural-language search, curated Spotlight, and all 57,099 variable stars shaped into a living Milky Way band](docs/search.png)
+<p align="center">
+  <img src="docs/search.png" alt="The Lumeon starfield with natural-language search and Spotlight" width="880"><br>
+  <em>The sky — natural-language search, a rotating Spotlight, and all 57,099 variable stars shaped into a living Milky Way band.</em>
+</p>
 
 **Fly through the sky.** All 57,099 variable stars are painted into one living Milky Way band:
 the more violently a source varies, the brighter and larger it burns, pulling the wildest
@@ -128,7 +131,10 @@ it, a one-of-a-kind description is written *from that star's own measured record
 among peers, how it was watched, and the real shape of its curve — so it tells you what *this*
 star actually did, not a generic blurb about its class.
 
-![A star's detail card: an animated two-color light curve, at-a-glance stats, and an AI description written from that star's own measured record](docs/starcard.png)
+<p align="center">
+  <img src="docs/starcard.png" alt="A star's detail card with light curve, stats, and an AI description" width="880"><br>
+  <em>Any star opens a card — an animated light curve you can scrub, its stats, and an AI description written from its own measured record.</em>
+</p>
 
 **Wander or narrow down.** A rotating Spotlight tours real phenomena hiding in the data — black
 holes flickering across billions of years, supernovae, clockwork eclipsing binaries, egg-shaped
