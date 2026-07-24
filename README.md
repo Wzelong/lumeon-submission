@@ -101,7 +101,37 @@ lab/                       exploratory data-analysis scripts (not part of the ru
 
 ## Explore the results
 
-An interactive companion frontend visualizes the full result set as a starfield where
-variability drives the glow, with search, filtering, and a natural-language guide to the
-stars: **[lumeon.vercel.app](https://lumeon.vercel.app)**. It is a separate, optional
-project and plays no part in the benchmarked computation above.
+The 57,099-row CSV is just numbers. **[lumeon.vercel.app](https://lumeon.vercel.app)** turns
+it into a sky you can fly through — every qualifying source becomes a star you can find,
+watch, and ask about.
+
+**Fly through the sky.** All 57,099 variable stars are painted into one living Milky Way band:
+the more violently a source varies, the brighter and larger it burns, pulling the wildest
+stars into a glowing core while calmer ones settle toward the edges. Zoom in up to ~600×, pan
+across the field, and click any star to smoothly fly to it. A single toggle re-tints the whole
+sky by *which color of light drove the change* — blue when Gaia's BP band swung hardest, red
+when RP did.
+
+**Ask the sky in plain English.** The search bar takes real language, not filters — by type
+(*"eclipsing binaries," "RR Lyrae pulsators"*), by feeling (*"something restless," "something
+violent," "surprise me"*), or by light-curve shape (*"a star that vanishes, then returns"*). A
+grounded AI agent answers by searching the real catalog — the stars and numbers it returns are
+always real, never invented — and narrates the matches in the warm voice of an old astronomer
+at the eyepiece.
+
+**Open any star.** Every star opens a detail card with an animated two-color light curve you
+can scrub across to read the exact year and brightness of each real Gaia measurement, plus its
+swing (how many times brighter dimmest-to-brightest), epoch count, magnitude, and band. Below
+it, a one-of-a-kind description is written *from that star's own measured record* — its rarity
+among peers, how it was watched, and the real shape of its curve — so it tells you what *this*
+star actually did, not a generic blurb about its class.
+
+**Wander or narrow down.** A rotating Spotlight tours real phenomena hiding in the data — black
+holes flickering across billions of years, supernovae, clockwork eclipsing binaries, egg-shaped
+stars turning their long side toward us. Or narrow the whole map at once by variability class
+(18 of them), brightness, "drama," and band — filters that govern the sky, the search, and the
+random-star button together. Live counters track how many stars the community has explored and
+how many stargazers have visited.
+
+*The frontend is a separate, optional companion — it plays no part in the benchmarked
+computation above.*
